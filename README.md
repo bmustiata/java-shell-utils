@@ -16,7 +16,7 @@ unpack.sh /path/to/a/file.war
 ```
 
 Creates a folder in the current directory that contains the
-contents of the archive. 
+contents of the archive.
 
 pack.sh
 -------
@@ -31,6 +31,9 @@ pack.sh /path/to/a/folder war
 
 Creates an archive with the given extension name.
 
+For example the previous command would have created an archive
+named `folder.war` in the current folder.
+
 has-class.sh
 ------------
 
@@ -44,5 +47,6 @@ has-class.sh org.apache.Test [-m] [-p]
 ```
 
 `-m` displays the matches inside the jar files.
+
 `-p` assume packages names, so don't append a `.class` extension
 
